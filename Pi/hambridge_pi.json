@@ -1,0 +1,13 @@
+{
+  "windows_host": "",
+  "rx_port": 5000,
+  "tx_port": 5001,
+  "tcp_port": 5002,
+  "rx_device": null,
+  "tx_device": null,
+  "camera_port": 5003,
+  "camera_enabled": true,
+  "camera_width": 1280,
+  "camera_height": 720,
+  "camera_fps": 15
+}

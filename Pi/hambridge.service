@@ -1,0 +1,20 @@
+[Unit]
+Description=HamBridge Audio Bridge Server
+After=network-online.target sound.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=%i
+WorkingDirectory=/home/%i/hambridge
+ExecStart=/home/%i/hambridge/venv/bin/python pi_server.py
+Restart=on-failure
+RestartSec=5
+StandardOutput=journal
+StandardError=journal
+
+# Give the audio subsystem a moment to settle after boot
+ExecStartPre=/bin/sleep 3
+
+[Install]
+WantedBy=multi-user.target

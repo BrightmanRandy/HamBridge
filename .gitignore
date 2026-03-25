@@ -1,0 +1,19 @@
+# .NET build output
+Windows/bin/
+Windows/obj/
+Windows/publish/
+
+# User config (contains local IPs/paths)
+Windows/hambridge.json
+
+# Python
+Pi/__pycache__/
+Pi/*.pyc
+Pi/venv/
+
+# Pi runtime config (contains local device names)
+# Keep hambridge_pi.json as a template but users edit their own copy
+
+# OS
+.DS_Store
+Thumbs.db
