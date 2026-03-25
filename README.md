@@ -49,4 +49,4 @@ See `Pi/README.md` for full setup instructions.
 
 ## Callsign
 
-W4HAM
+KN4SHQ
